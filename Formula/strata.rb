@@ -1,24 +1,24 @@
 class Strata < Formula
   desc "Production-grade embedded database for AI agents"
   homepage "https://stratadb.org"
-  version "0.5.1-rc1"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.5.1-rc1/strata-v0.5.1-rc1-aarch64-apple-darwin.tar.gz"
-      sha256 "4db9b60af061caa6222361ccca61a50794f3731fe688c7c1dac5bc58d1ed23a7"
+      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.6.0/strata-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "43375d3a2307d3e812255737461bcb84e175d0752407f073c9228d9ffdb7d703"
     end
     on_intel do
-      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.5.1-rc1/strata-v0.5.1-rc1-x86_64-apple-darwin.tar.gz"
-      sha256 "646db157b66ae430cba7866292e546d223e064a81224b98f5c814cccae941080"
+      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.6.0/strata-v0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f1808e4e0091b452fdbc4b4c17267f565a421ab16f6095905b6ffb1d50ff66df"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.5.1-rc1/strata-v0.5.1-rc1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dcd7ccc57e3303da1b39c401822df220d2abaa4270790d2e31465671a0658409"
+      url "https://github.com/strata-ai-labs/strata-core/releases/download/v0.6.0/strata-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f812678cd341ec3f8eb15f41a8e631d19d53b592296d3173cdcf43fd1501a9de"
     end
   end
 
